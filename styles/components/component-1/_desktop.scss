@@ -82,7 +82,12 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  border: 1px solid grey;
   width: 130px;
   height: 38px;
+  border: 1px solid grey;
+
+  .img-cnt {
+    padding-right: 7px;
+    border-right: 1px solid grey;
+  }
 }
