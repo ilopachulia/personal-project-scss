@@ -1,0 +1,41 @@
+.white-cell {
+  width: 622px;
+  height: 409px;
+  background-color: $white;
+  margin-bottom: 5px;
+}
+
+.cell {
+  width: 107px;
+  height: 100px;
+  background-color: $white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.cell-cnt {
+  margin-left: 50px;
+}
+.comp3-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.comp3-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: $white;
+  margin-bottom: 40px;
+}
+
+.comp3-container {
+  width: 1417.5px;
+  height: 520px;
+  margin: 0 auto;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+}

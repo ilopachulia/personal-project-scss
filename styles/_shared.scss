@@ -4,7 +4,6 @@ main {
   background-color: $container-bg-color;
 }
 
-
 .container {
   width: 1004px; // needs adjusting
   margin: 0 auto;
@@ -47,4 +46,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
