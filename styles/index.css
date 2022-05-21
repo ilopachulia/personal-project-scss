@@ -71,6 +71,12 @@ main {
   align-items: center;
 }
 
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .flex-comp1 {
   display: flex;
   justify-content: flex-start;
