@@ -1,0 +1,88 @@
+.red-cell {
+  width: 350px;
+  height: 425px;
+  background-color: $cell-bg-color;
+  position: relative;
+
+  .white-cell {
+    width: 38px;
+    height: 38px;
+    border: 3px solid white; // should be corrected
+    color: $white;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 15px;
+
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+    }
+  }
+
+  .text-container {
+    margin-left: 33px; // should be adjusted
+    .headline-white {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 90px;
+      color: $white;
+    }
+
+    .headline-black {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      line-height: 18px;
+      color: $white;
+      width: 100.25px;
+      height: 19.5px;
+      background-color: $black;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 4px;
+    }
+
+    .author {
+      font-family: "Montserrat", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 26px;
+      color: $white;
+      margin-bottom: 31px;
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+
+    .duration {
+      font-family: "Open-sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: $white;
+      word-spacing: 1.5px;
+      margin-bottom: 5px;
+    }
+    .admission {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      line-height: 90px;
+      color: $white;
+      margin-bottom: 10px;
+    }
+  }
+  .right-arrow {
+    margin-right: 10px;
+  }
+}
+
+.image-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid grey;
+  width: 130px;
+  height: 38px;
+}

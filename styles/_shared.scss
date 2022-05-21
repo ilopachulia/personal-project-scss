@@ -1,0 +1,33 @@
+main {
+  width: 1417.5px; // needs adjusting
+  margin: 0 auto;
+  background-color: $container-bg-color;
+}
+
+.container {
+  width: 1004px; // needs adjusting
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-comp1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
