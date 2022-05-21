@@ -71,6 +71,11 @@ main {
   align-items: center;
 }
 
+.flex-start2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .flex-end {
   display: flex;
   justify-content: flex-end;
@@ -85,6 +90,12 @@ main {
 .flex-around {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -172,6 +183,68 @@ main {
 .image-container .img-cnt {
   padding-right: 7px;
   border-right: 1px solid grey;
+}
+
+.main {
+  height: 65px;
+  display: grid;
+  grid-template-columns: 557px 537px 56px 56px 1fr;
+}
+.main .cell1 {
+  background-color: #EEEEEE;
+}
+.main .cell2,
+.main .cell3,
+.main .cell4,
+.main .cell5 {
+  background-color: #111111;
+}
+.main .cell3 {
+  border-right: 0.25px solid grey;
+  border-left: 0.25px solid grey;
+}
+.main .cell4 {
+  border-right: 0.25px solid grey;
+}
+
+.grey-cell {
+  width: 350px;
+  height: 522px;
+  background-color: #898989;
+}
+
+.grid-container {
+  background-color: #DBDBDB;
+  display: grid;
+  grid-template-columns: 207px 350px 850px;
+}
+
+.comp2-text {
+  background-color: #ffffff;
+  padding-left: 48px;
+}
+.comp2-text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.comp2-text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.comp2-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  margin-bottom: 30px;
+  margin-right: 28px;
 }
 
 /*# sourceMappingURL=index.css.map */

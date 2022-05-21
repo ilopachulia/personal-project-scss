@@ -91,3 +91,29 @@
     border-right: 1px solid grey;
   }
 }
+
+// Component 1 footer scss
+
+.main {
+  height: 65px;
+  display: grid;
+  grid-template-columns: 557px 537px 56px 56px 1fr;
+
+  .cell1 {
+    background-color: $container-bg-color;
+  }
+
+  .cell2,
+  .cell3,
+  .cell4,
+  .cell5 {
+    background-color: $black;
+  }
+  .cell3 {
+    border-right: 0.25px solid grey;
+    border-left: 0.25px solid grey;
+  }
+  .cell4 {
+    border-right: 0.25px solid grey;
+  }
+}
