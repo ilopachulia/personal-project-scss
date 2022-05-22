@@ -304,4 +304,21 @@ main {
   align-items: center;
 }
 
+.map-container {
+  width: 1417.5px;
+  position: relative;
+}
+.map-container .map {
+  width: 100%;
+  height: 440px;
+}
+.map-container .comp4-red-cell {
+  width: 349px;
+  height: 440px;
+  background-color: #ed1c24;
+  position: absolute;
+  top: 0;
+  left: 14.7%;
+}
+
 /*# sourceMappingURL=index.css.map */
