@@ -257,29 +257,34 @@ main {
   margin-right: 28px;
 }
 
-.white-cell {
+.comp3-white-cell {
   width: 622px;
   height: 409px;
   background-color: #ffffff;
+}
+
+.white-cell-helper {
   margin-bottom: 5px;
+}
+
+.outter_container {
+  display: flex;
+  justify-content: space-between;
+  height: 414px;
 }
 
 .cell {
   width: 107px;
   height: 100px;
   background-color: #ffffff;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-
-.cell-cnt {
-  margin-left: 50px;
 }
 
 .comp3-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 107px 107px 107px;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 20px;
 }
 
 .comp3-header {
@@ -288,7 +293,6 @@ main {
   font-weight: 700;
   line-height: 36px;
   color: #ffffff;
-  margin-bottom: 40px;
 }
 
 .comp3-container {
