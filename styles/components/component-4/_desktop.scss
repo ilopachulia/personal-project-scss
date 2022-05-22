@@ -14,5 +14,27 @@
     position: absolute;
     top: 0;
     left: 14.7%;
+
+    .comp4-circle {
+      width: 50px;
+      height: 50px;
+      background-color: $white;
+      border-radius: 50%;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+      }
+    }
+
+    .comp4-headline {
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 36px;
+      color: $white;
+    }
   }
 }

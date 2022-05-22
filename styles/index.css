@@ -320,5 +320,24 @@ main {
   top: 0;
   left: 14.7%;
 }
+.map-container .comp4-red-cell .comp4-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+}
+.map-container .comp4-red-cell .comp4-circle img {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.map-container .comp4-red-cell .comp4-headline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=index.css.map */
