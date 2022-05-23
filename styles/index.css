@@ -217,6 +217,37 @@ main {
   border-right: 0.25px solid grey;
 }
 
+@media (max-width: 768px) {
+  main {
+    width: 770px;
+  }
+
+  .container {
+    width: 729px;
+  }
+
+  .red-cell {
+    width: 344px;
+    height: 421px;
+    background-color: #FF4242;
+  }
+  .red-cell .white-cell {
+    margin-top: 5px;
+  }
+  .red-cell .white-cell p {
+    font-size: 32px;
+    margin-top: 3px;
+  }
+
+  .main {
+    width: 731px;
+    height: 60px;
+    grid-template-columns: 20px 572px 57px 57px 44px;
+  }
+  .main .cell1 {
+    background-color: #EEEEEE;
+  }
+}
 .grey-cell {
   width: 350px;
   height: 522px;
@@ -257,44 +288,6 @@ main {
   margin-right: 28px;
 }
 
-.comp3-white-cell {
-  width: 622px;
-  height: 409px;
-  background-color: #ffffff;
-}
-
-.white-cell-helper {
-  margin-bottom: 5px;
-}
-
-.outter_container {
-  display: flex;
-  justify-content: space-between;
-  height: 414px;
-}
-
-.cell {
-  width: 107px;
-  height: 100px;
-  background-color: #ffffff;
-}
-
-.comp3-grid {
-  display: grid;
-  grid-template-columns: 107px 107px 107px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 20px;
-}
-
-.comp3-header {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 36px;
-  color: #ffffff;
-}
-
 .comp3-container {
   width: 1417.5px;
   height: 520px;
@@ -302,6 +295,43 @@ main {
   background-color: #111111;
   display: flex;
   align-items: center;
+}
+.comp3-container .white-cell-helper {
+  margin-bottom: 5px;
+}
+.comp3-container .comp3-white-cell {
+  width: 622px;
+  height: 409px;
+  background-color: #ffffff;
+}
+.comp3-container .outter_container {
+  display: flex;
+  justify-content: space-between;
+  height: 414px;
+}
+.comp3-container .outter_container .comp3-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+}
+.comp3-container .comp3-grid {
+  display: grid;
+  grid-template-columns: 107px 107px 107px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 20px;
+}
+.comp3-container .comp3-grid .cell {
+  width: 107px;
+  height: 100px;
+  background-color: #ffffff;
+}
+.comp3-container .comp3-grid .cell:hover {
+  width: 102;
+  height: 95;
+  border: 5px solid red;
 }
 
 .map-container {
