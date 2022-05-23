@@ -6,6 +6,11 @@
   display: flex;
   align-items: center;
 
+  .comp3-white-cell {
+    flex-shrink: 0;
+    margin-right: 30px;
+  }
+
   .white-cell-helper {
     margin-bottom: 5px;
   }
@@ -21,32 +26,37 @@
     justify-content: space-between;
     height: 414px;
 
-     .comp3-header {
+    .comp3-header {
       font-family: "Montserrat", sans-serif;
       font-size: 30px;
       font-weight: 700;
       line-height: 36px;
       color: $white;
+      margin-bottom: 30px;
     }
   }
   .comp3-grid {
-    display: grid;
-    grid-template-columns: 107px 107px 107px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 16px;
-    grid-row-gap: 20px;
+    // display: grid;
+    // grid-template-columns: 107px 107px 107px;
+    // grid-template-rows: 1fr 1fr 1fr;
+    // grid-column-gap: 16px;
+    // grid-row-gap: 20px;
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
 
     .cell {
       width: 107px;
       height: 100px;
       background-color: $white;
+      margin-right: 16px;
+      margin-bottom: 20px;
     }
 
     .cell:hover {
       width: 102;
       height: 95;
       border: 5px solid red;
-
     }
   }
 }
