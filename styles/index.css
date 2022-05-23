@@ -456,6 +456,9 @@ main {
   width: 1004px;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   position: relative;
 }
 .footer-container .footer-icon {
@@ -503,6 +506,31 @@ main {
   line-height: 16.8px;
   color: #ffffff;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .comp5-container {
+    width: 770px;
+  }
+  .comp5-container .footer-container {
+    width: 594px;
+    display: block !important;
+  }
+  .comp5-container .footer-container .footer-icon {
+    top: 38%;
+    right: 0px;
+  }
+  .comp5-container .footer-container .headline-white {
+    margin-bottom: 10px;
+  }
+  .comp5-container .white-cell {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+  }
+  .comp5-container .footer-paragraph {
+    margin-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
