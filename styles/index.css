@@ -248,6 +248,30 @@ main {
     background-color: #EEEEEE;
   }
 }
+@media (max-width: 768px) {
+  main {
+    background-color: white;
+  }
+
+  .grey-cell {
+    display: none;
+  }
+
+  .grid-container {
+    display: flex;
+    width: 770px;
+    height: 472px;
+    background-color: #ffffff !important;
+  }
+  .grid-container .part1 {
+    display: none;
+  }
+
+  .comp2-text {
+    width: 608px;
+    padding-left: 69px !important;
+  }
+}
 .grey-cell {
   width: 350px;
   height: 522px;
