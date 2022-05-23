@@ -319,13 +319,16 @@ main {
   position: absolute;
   top: 0;
   left: 14.7%;
+  align-items: center;
+  text-align: center;
 }
 .map-container .comp4-red-cell .comp4-circle {
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
   background-color: #ffffff;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 12px;
 }
 .map-container .comp4-red-cell .comp4-circle img {
   position: absolute;
@@ -335,9 +338,40 @@ main {
 .map-container .comp4-red-cell .comp4-headline {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 36px;
   color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 19px;
+}
+.map-container .comp4-red-cell .comp4-address {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 41px;
+}
+.map-container .comp4-red-cell .question {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.map-container .comp4-red-cell .icon-cell {
+  position: relative;
+  display: inline-block;
+}
+.map-container .comp4-red-cell .icon-cell .icon {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.map-container .comp4-red-cell .icon-cell .icon.car {
+  top: 30%;
+  left: 20%;
 }
 
 /*# sourceMappingURL=index.css.map */

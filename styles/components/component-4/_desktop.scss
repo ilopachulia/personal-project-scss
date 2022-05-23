@@ -15,12 +15,16 @@
     top: 0;
     left: 14.7%;
 
+    align-items: center;
+    text-align: center;
+
     .comp4-circle {
-      width: 50px;
-      height: 50px;
+      width: 42px;
+      height: 42px;
       background-color: $white;
       border-radius: 50%;
       position: relative;
+      margin-bottom: 12px;
 
       img {
         position: absolute;
@@ -32,9 +36,44 @@
     .comp4-headline {
       font-family: "Montserrat", sans-serif;
       font-size: 30px;
-      font-weight: 800;
+      font-weight: 700;
       line-height: 36px;
       color: $white;
+      margin-top: 60px;
+      margin-bottom: 19px;
+    }
+
+    .comp4-address {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 20px;
+      color: $white;
+      margin-bottom: 41px;
+    }
+
+    .question {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: $white;
+      margin-bottom: 23px;
+    }
+    .icon-cell {
+      position: relative;
+      display: inline-block;
+
+      .icon {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+
+        &.car {
+          top: 30%;
+          left: 20%;
+        }
+      }
     }
   }
 }
