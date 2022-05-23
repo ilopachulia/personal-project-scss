@@ -374,4 +374,64 @@ main {
   left: 20%;
 }
 
+.comp5-container {
+  width: 1417.5px;
+  height: 163.5px;
+  margin: 0 auto;
+  background-color: #111111;
+}
+
+.footer-container {
+  width: 1004px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.footer-container .footer-icon {
+  position: absolute;
+  top: 36%;
+  right: -11.4%;
+  width: 37px;
+  height: 35px;
+  border: 1px solid grey;
+}
+.footer-container .footer-icon img {
+  position: absolute;
+  top: 36%;
+  left: 25%;
+}
+.footer-container .white-cell {
+  width: 38px;
+  height: 38px;
+  border: 3px solid white;
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.footer-container .white-cell p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.footer-container .headline-white {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  margin-right: 395px;
+  margin-bottom: 30px;
+}
+.footer-container .footer-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 16.8px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=index.css.map */
