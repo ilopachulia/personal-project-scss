@@ -404,6 +404,35 @@ main {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .comp3-container {
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+  }
+  .comp3-container .container {
+    max-width: 592px;
+  }
+  .comp3-container .flex-between {
+    display: block;
+  }
+  .comp3-container .comp3-white-cell {
+    display: none;
+  }
+  .comp3-container .cell1 {
+    width: 592px !important;
+    height: 296px !important;
+  }
+  .comp3-container .comp3-grid {
+    width: 615px !important;
+    margin-right: 50px;
+  }
+}
+.cell-none {
+  display: none;
+}
+
 .comp3-container {
   width: 1417.5px;
   height: 520px;
