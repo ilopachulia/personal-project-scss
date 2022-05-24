@@ -1,0 +1,12 @@
+@media (max-width: 320px) {
+  .map-container {
+    width: 320px;
+    .comp4-red-cell {
+      width: 270.5px;
+      height: 402px;
+      background-color: $media-cell-bg-color;
+      opacity: 95%;
+      left: 8.3% !important;
+    }
+  }
+}

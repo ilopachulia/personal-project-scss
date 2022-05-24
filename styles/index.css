@@ -537,6 +537,18 @@ main {
     left: 47px !important;
   }
 }
+@media (max-width: 320px) {
+  .map-container {
+    width: 320px;
+  }
+  .map-container .comp4-red-cell {
+    width: 270.5px;
+    height: 402px;
+    background-color: #FF4242;
+    opacity: 95%;
+    left: 8.3% !important;
+  }
+}
 .comp5-container {
   width: 1417.5px;
   height: 163.5px;
