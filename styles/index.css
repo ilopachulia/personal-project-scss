@@ -231,18 +231,20 @@ main {
   main .container .white-cell {
     width: 30px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
   }
   main .container .white-cell P {
     font-size: 25px;
   }
   main .container .headline-white {
     font-size: 14px !important;
-    margin-right: 10px;
+    margin-right: 1px;
   }
   main .container .headline-black {
-    margin-top: 26px !important;
-    margin-left: 7px;
+    margin-top: 28px !important;
+    margin-left: 5px;
+    margin-left: 4px;
   }
   main .container .author {
     margin-left: 10px;
@@ -260,7 +262,7 @@ main {
     right: 0px;
   }
   main .container .image-container {
-    right: 25%;
+    right: 27%;
   }
   main .main .cell1 {
     background-color: #111111;
@@ -301,9 +303,10 @@ main {
   .grid-container {
     width: 320px;
     height: 600px;
+    margin-bottom: 131px !important;
   }
   .grid-container .comp2-text {
-    width: 315px;
+    width: 309px;
     text-align: center;
     padding-left: 7px !important;
     padding-bottom: 40px;
@@ -311,8 +314,8 @@ main {
   .grid-container .comp2-text h1 {
     font-size: 24px;
     line-height: 29px;
-    margin-top: 37px;
-    margin-bottom: 20px;
+    margin-top: 38px;
+    margin-bottom: 22px;
   }
   .grid-container .comp2-text h2 {
     font-size: 18px;
@@ -393,14 +396,30 @@ main {
 
 @media (max-width: 320px) {
   .comp3-container {
-    width: 320px !important;
-    height: 360px !important;
+    max-width: 320px !important;
+    max-height: 304px !important;
+  }
+  .comp3-container .container {
+    max-width: 271px;
+    max-height: 428px !important;
+    text-align: center;
+  }
+  .comp3-container .container .comp3-header {
+    margin-top: 28px !important;
+    font-size: 24px !important;
+    margin-bottom: 33px !important;
+  }
+  .comp3-container .outter_container {
+    max-height: 311px;
   }
   .comp3-container .comp3-white-cell {
-    width: 224px !important;
-    height: 190px !important;
+    display: none;
   }
-  .comp3-container .cell {
+  .comp3-container .cell1 {
+    max-width: 271px !important;
+    max-height: 190px !important;
+  }
+  .comp3-container .cell-mb-none {
     display: none;
   }
 }
@@ -410,9 +429,13 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #111111;
+    padding-bottom: 55px;
   }
   .comp3-container .container {
     max-width: 592px;
+  }
+  .comp3-container .container .comp3-header {
+    margin-top: 40px;
   }
   .comp3-container .flex-between {
     display: block;
@@ -426,7 +449,7 @@ main {
   }
   .comp3-container .comp3-grid {
     width: 615px !important;
-    margin-right: 50px;
+    margin-right: 100px;
   }
 }
 .cell-none {
@@ -559,11 +582,26 @@ main {
     width: 770px;
   }
 
+  .map {
+    max-height: 399px !important;
+  }
+
   .comp4-red-cell {
     width: 344.5px;
     background-color: #FF4242;
     top: 0;
-    left: 47px !important;
+    left: 20px !important;
+  }
+  .comp4-red-cell .comp4-headline {
+    font-size: 24px !important;
+    margin-top: 34px !important;
+    margin-bottom: 19px !important;
+  }
+  .comp4-red-cell .comp4-circle {
+    margin-bottom: 30px !important;
+  }
+  .comp4-red-cell .question {
+    margin-bottom: 14px !important;
   }
 }
 @media (max-width: 320px) {
@@ -646,15 +684,15 @@ main {
     width: 770px;
   }
   .comp5-container .footer-container {
-    width: 594px;
+    width: 635px;
     display: block !important;
   }
   .comp5-container .footer-container .footer-icon {
-    top: 38%;
-    right: 0px;
+    top: 35%;
+    right: 40px;
   }
   .comp5-container .footer-container .headline-white {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .comp5-container .white-cell {
     margin-left: 0px;
@@ -674,7 +712,16 @@ main {
     height: 166px;
   }
   .comp5-container .footer-container .white-cell {
-    margin-top: 24pxs;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 38px !important;
+  }
+  .comp5-container .footer-container .footer-icon {
+    top: 17%;
+    right: -4px;
+  }
+  .comp5-container .footer-container .footer-paragraph {
+    font-size: 12px;
   }
 }
 

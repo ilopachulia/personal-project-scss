@@ -4,9 +4,13 @@
     display: flex;
     flex-direction: column;
     background-color: $black;
-
+    padding-bottom: 55px;
+    
     .container {
       max-width: 592px;
+      .comp3-header {
+        margin-top: 40px;
+      }
     }
 
     .flex-between {
@@ -21,10 +25,10 @@
       width: 592px !important;
       height: 296px !important;
     }
-
+    
     .comp3-grid {
       width: 615px !important;
-      margin-right: 50px;
+      margin-right: 100px;
     }
   }
 }

@@ -5,7 +5,17 @@
             width: 270px;
             height: 166px;
             .white-cell {
-                margin-top: 24pxs;
+                margin-top: 24px;
+                margin-bottom: 40px;
+                width: 38px!important;
+            }
+
+            .footer-icon{
+                top: 17%;
+                right: -4px;
+            }
+            .footer-paragraph {
+                font-size: 12px;
             }
         }
     }
