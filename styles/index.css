@@ -391,6 +391,19 @@ main {
   margin-right: 28px;
 }
 
+@media (max-width: 320px) {
+  .comp3-container {
+    width: 320px !important;
+    height: 360px !important;
+  }
+  .comp3-container .comp3-white-cell {
+    width: 224px !important;
+    height: 190px !important;
+  }
+  .comp3-container .cell {
+    display: none;
+  }
+}
 .comp3-container {
   width: 1417.5px;
   height: 520px;

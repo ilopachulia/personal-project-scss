@@ -1,0 +1,17 @@
+@media (max-width: 320px) {
+  .comp3-container {
+    width: 320px !important;
+    height: 360px !important;
+
+    .comp3-white-cell {
+      width: 224px !important;
+      height: 190px !important;
+    }
+
+    .cell {
+      display: none;
+    }
+    .comp3-header {
+    }
+  }
+}
