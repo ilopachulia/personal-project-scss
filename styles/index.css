@@ -636,5 +636,17 @@ main {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 320px) {
+  .comp5-container {
+    width: 320px;
+  }
+  .comp5-container .footer-container {
+    width: 270px;
+    height: 166px;
+  }
+  .comp5-container .footer-container .white-cell {
+    margin-top: 24pxs;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
